@@ -1,0 +1,9 @@
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.deps.json
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.dll
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.AssemblyInfoInputs.cache
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.AssemblyInfo.cs
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.pdb
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.dll
+D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp2.0\MicroRabbit.Infra.IoC.pdb
