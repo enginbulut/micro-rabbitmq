@@ -16,4 +16,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRabbit.Banking.Data\MicroRabbit.Banking.Data.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Banking.Domain\MicroRabbit.Banking.Domain.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

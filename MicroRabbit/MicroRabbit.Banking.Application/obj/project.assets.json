@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "MicroRabbit.Banking.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MicroRabbit.Banking.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbit.Banking.Domain.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "MicroRabbit.Banking.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj",
+      "msbuildProject": "../MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "MicroRabbit.Banking.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -669,9 +685,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "D:\\WorkSpaces\\ARGE\\RabbitMQ\\MicroRabbit\\MicroRabbit\\MicroRabbit.Banking.Application\\MicroRabbit.Banking.Application.csproj",
       "projectName": "MicroRabbit.Banking.Application",
@@ -695,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\WorkSpaces\\ARGE\\RabbitMQ\\MicroRabbit\\MicroRabbit\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj": {
+              "projectPath": "D:\\WorkSpaces\\ARGE\\RabbitMQ\\MicroRabbit\\MicroRabbit\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -710,15 +727,21 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
