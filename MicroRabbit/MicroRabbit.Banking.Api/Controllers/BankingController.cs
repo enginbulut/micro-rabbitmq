@@ -6,18 +6,21 @@ using MicroRabbit.Banking.Application.Interfaces;
 using MicroRabbit.Banking.Application.Models;
 using MicroRabbit.Banking.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace MicroRabbit.Banking.Api.Controllers
 {
-    [Route("api/[controller]")]
-    public class BankingController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class BankingController : ControllerBase
     {
         private readonly IAccountService _accountService;
+
         public BankingController(IAccountService accountService)
         {
             _accountService = accountService;
         }
-        // GET api/banking
+
         [HttpGet]
         public IEnumerable<Account> Get()
         {
@@ -30,6 +33,5 @@ namespace MicroRabbit.Banking.Api.Controllers
             _accountService.Transfer(accountTransfer);
             return Ok(accountTransfer);
         }
-
     }
 }
