@@ -5,4 +5,3 @@ D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Domain.Core\obj\
 D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Domain.Core\bin\Debug\netcoreapp2.0\MicroRabbit.Domain.Core.pdb
 D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Domain.Core\obj\Debug\netcoreapp2.0\MicroRabbit.Domain.Core.dll
 D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Domain.Core\obj\Debug\netcoreapp2.0\MicroRabbit.Domain.Core.pdb
-D:\WorkSpaces\ARGE\RabbitMQ\MicroRabbit\MicroRabbit\MicroRabbit.Domain.Core\obj\Debug\netcoreapp2.0\MicroRabbit.Domain.Core.csprojAssemblyReference.cache
